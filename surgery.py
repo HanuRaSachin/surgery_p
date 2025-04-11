@@ -10,8 +10,8 @@ from PIL import Image
 import io
 from torch.fft import fft2, ifft2
 
-API_KEY = "" 
-genai.configure(api_key=AIzaSyA-9-lTQTWdNM43YdOXMQwGKDy0SrMwo6c)
+API_KEY = "AIzaSyA-9-lTQTWdNM43YdOXMQwGKDy0SrMwo6c" 
+genai.configure(api_key=API_KEY)
 
 class FFTGaLoreOptimizer:
     def __init__(self, params, rank=128, lr=3e-6):
